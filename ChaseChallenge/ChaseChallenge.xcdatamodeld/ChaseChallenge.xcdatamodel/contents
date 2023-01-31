@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21512" systemVersion="21G217" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="SatScores" representedClassName="SatModel" syncable="YES">
+        <attribute name="dbn" optional="YES" attributeType="String"/>
+        <attribute name="mathScores" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="readScores" optional="YES" attributeType="String"/>
+        <attribute name="testTakers" optional="YES" attributeType="String"/>
+        <attribute name="writingScores" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="School" representedClassName="SchoolModel" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="city" optional="YES" attributeType="String"/>
+        <attribute name="dbn" optional="YES" attributeType="String"/>
+        <attribute name="grades" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="overview" optional="YES" attributeType="String"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="String"/>
+        <attribute name="state" optional="YES" attributeType="String"/>
+        <attribute name="totalStudents" optional="YES" attributeType="String"/>
+    </entity>
+</model>
